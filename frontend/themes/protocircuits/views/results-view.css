@@ -1,0 +1,75 @@
+.results-view {
+  background-color: var(--lumo-contrast-10pct);
+  box-sizing: border-box;
+  display: block;
+  font-size: var(--lumo-font-size-m);
+  height: 100%;
+  overflow: auto;
+  padding: var(--lumo-space-m) var(--lumo-space-l);
+}
+
+.results-view vaadin-board {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+/* Wrapper */
+.results-view .wrapper {
+  display: flex;
+  padding: var(--lumo-space-s);
+}
+
+/* Card */
+.results-view .card {
+  align-items: baseline;
+  background-color: var(--lumo-base-color);
+  border-radius: var(--lumo-border-radius);
+  box-shadow: var(--lumo-box-shadow-xs);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+
+.results-view .card h2 {
+  margin-bottom: 0;
+  margin-top: var(--lumo-space-m);
+}
+
+.results-view .card h3 {
+  margin-bottom: var(--lumo-space-xs);
+  margin-left: var(--lumo-space-m);
+  margin-top: var(--lumo-space-m);
+}
+
+/* Spacing */
+.results-view .space-m {
+  padding: var(--lumo-space-m);
+}
+
+/* Text colors */
+.results-view .error-text {
+  color: var(--lumo-error-text-color);
+}
+
+.results-view .primary-text {
+  color: var(--lumo-primary-text-color);
+}
+
+.results-view .secondary-text {
+  color: var(--lumo-secondary-text-color);
+}
+
+.results-view .success-text {
+  color: var(--lumo-success-text-color);
+}
+
+/* Charts */
+.results-view vaadin-chart {
+  padding-top: var(--lumo-space-s);
+}
+
+/* Grid */
+.results-view vaadin-grid {
+  height: 300px;
+}
