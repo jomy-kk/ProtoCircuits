@@ -1,0 +1,113 @@
+running-view {
+  display: block;
+}
+
+.test-color {
+  /*background-color: rgba(220, 225, 200, 0.2);*/
+}
+
+.resolution-color {
+  background-color: black;
+}
+
+.no-env {
+  background-color: rgb(240,240,240);
+  background-size: cover;
+}
+
+.blood-vessel-env {
+  background-image: url(../../images/blood_vessel.png);
+  background-color: rgb(240,240,240);
+  background-size: cover;
+}
+
+.petri-dish-env {
+  background-image: url(../../images/petri_dish.png);
+  background-color: transparent;
+  background-size: cover;
+}
+
+.gut-env {
+  background-image: url(../../images/gut.png);
+  background-color: rgb(240,240,240);
+  background-size: cover;
+}
+
+
+/****************  BLOCKS  ***************/
+
+.PLASMA{
+  background-color: rgba(196, 59, 41, 1);
+}
+
+.TUNICA_MEDIA{
+  background-color: rgba(196, 118, 41, 1);
+}
+
+.TUNICA_EXTERNA{
+  background-color: rgba(196, 154, 41, 1);
+}
+
+.CELL{
+  background-color: rgba(234, 195, 203, 1);
+}
+
+.TUMOROUS-CELL{
+  background-color: rgba(157, 101, 112, 1);
+}
+
+.DEAD-CELL{
+  background-color: rgba(75, 46, 52, 1);
+}
+
+.ECM{
+  background-color: rgba(236, 213, 218, 1);
+}
+
+.FREE{
+  background-color: transparent;
+}
+
+
+/****************  AGENTS  ***************/
+
+.PROTOCELL{
+  background-color: rgba(41, 196, 137, 0.7);
+}
+
+.TRANSDUCER{
+  background-color: rgba(196, 59, 41, 0.7);
+}
+
+.AND-GATE{
+  background-color: rgba(196, 41, 136, 0.7);
+}
+
+.RBC{
+  background-color: rgba(113, 29, 16, 0.7);
+}
+
+/***  ssDNA colors  ***/
+
+.SSDNA-0{
+  background-color: rgba(61, 154, 203, 0.7);
+}
+
+.SSDNA-1{
+  background-color: rgba(146, 117, 227, 0.7);
+}
+
+.SSDNA-2{
+  background-color: rgba(196, 118, 41, 0.7);
+}
+
+.SSDNA-3 {
+  background-color: rgba(196, 41, 136, 0.7);
+}
+
+#topChart {
+  --vaadin-charts-color-0: rgba(61, 154, 203, 0.7);
+  --vaadin-charts-color-1: rgba(146, 117, 227, 0.7);
+  --vaadin-charts-color-2: rgba(196, 118, 41, 0.7);
+  --vaadin-charts-color-3: rgba(196, 41, 136, 0.7);
+}
